@@ -2,27 +2,43 @@
 
 /* --------------------------------------Colour */
 
-.bg-color-name-title{
+.bg-color-name-title {
     background-color: #676767;
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .bg-color-personal-info {
     background-color: #f4f4f4;
 }
 
-.bg-color-personal-info {
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
+.bg-color-work-history {
     background-color: #9b59b6;
 }
 
-.ui-menu-color-home {
-    background-color: #e26e22;
+.bg-color-contact {
+    background-color: #ffffff;
 }
 
-.ui-menu-color-cv {
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
     background-color: #9b59b6;
 }
 
@@ -30,12 +46,17 @@
     background-color: #3498db;
 }
 
-.bg-color-contact {
-    background-color: #fff;
+.ui-menu-color-download {
+    background-color: #d9a81d;
 }
 
-.ui-menu-color-download {
-    background-color: #525252;
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
 }
 
 /* --------------------------------------Special paddings/margins/text */
@@ -367,3 +388,7 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
+
+
+/* --------------------------------------Map */
+div#map {min-height: 360px;}
